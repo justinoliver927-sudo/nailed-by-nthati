@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Nailed by Nthati | Polygel Nail Technician</title>
+
+  <meta name="description"
+        content="Nailed by Nthati — self-taught polygel nail technician in Windmill Park, Boksburg.">
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff8fb;
+      color: #291d24;
+      line-height: 1.6;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 248, 251, 0.96);
+      border-bottom: 1px solid #ead5df;
+    }
+
+    nav {
+      max-width: 1100px;
+      margin: auto;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #b23a70;
+    }
+
+    nav a {
+      color: #291d24;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #b23a70;
+    }
+
+    .hero {
+      min-height: 85vh;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      padding: 70px 20px;
+
+      background:
+        linear-gradient(
+          rgba(60, 20, 40, 0.55),
+          rgba(80, 20, 50, 0.70)
+        ),
+        url("https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1600&q=80")
+        center/cover;
+    }
+
+    .hero-content {
+      max-width: 750px;
+      margin: auto;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: clamp(42px, 10vw, 75px);
+      margin-bottom: 10px;
+    }
+
+    .hero h1 span {
+      color: #ffd1e4;
+    }
+
+    .hero p {
+      font-size: 19px;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 24px;
+      margin: 5px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .primary {
+      background: #c9437c;
+      color: white;
+    }
+
+    .secondary {
+      border: 1px solid white;
+      color: white;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 75px 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-title h2 {
+      font-size: 34px;
+      color: #b23a70;
+    }
+
+    .section-title p {
+      color: #806b75;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #ead5df;
+      border-radius: 18px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 8px 25px rgba(100, 40, 70, 0.08);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #5b3045;
+    }
+
+    .price {
+      font-size: 27px;
+      font-weight: bold;
+      color: #c9437c;
+      margin-top: 15px;
+    }
+
+    .about {
+      max-width: 750px;
+      text-align: center;
+      margin: auto;
+      font-size: 17px;
+    }
+
+    .booking {
+      text-align: center;
+      background: #fff0f6;
+      border-radius: 20px;
+      padding: 35px 20px;
+    }
+
+    .booking p {
+      margin: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #291d24;
+      color: #ddd;
+    }
+
+    @media (max-width: 600px) {
+
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      nav a {
+        margin: 0 6px;
+      }
+
+      .hero {
+        min-height: 75vh;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+
+  <nav>
+
+    <div class="logo">
+      NAILED BY NTHATI
+    </div>
+
+    <div>
+
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#booking">Book</a>
+
+    </div>
+
+  </nav>
+
+</header>
+
+
+<main>
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>
+        Nailed by <span>Nthati</span>
+      </h1>
+
+      <p>
+        Self-taught Polygel Nail Technician
+        in Windmill Park, Boksburg.
+      </p>
+
+      <a
+        class="button primary"
+        href="https://wa.me/27752064993">
+        💬 Book on WhatsApp
+      </a>
+
+      <a
+        class="button secondary"
+        href="#services">
+        View Services
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <section id="services">
+
+    <div class="section-title">
+
+      <h2>Services</h2>
+
+      <p>
+        Beautiful nails, created with care.
+      </p>
+
+    </div>
+
+
+    <div class="services">
+
+      <div class="card">
+
+        <h3>💅 Plain Polygel</h3>
+
+        <p>
+          Clean and simple polygel nails.
+        </p>
+
+        <div class="price">
+          R280
+        </div>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>🎨 Gel Art</h3>
+
+        <p>
+          Creative gel designs for your nails.
+        </p>
+
+        <div class="price">
+          From R250
+        </div>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>✨ Polygel + Art</h3>
+
+        <p>
+          Polygel nails with customised gel art.
+        </p>
+
+        <div class="price">
+          From R330
+        </div>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>🌸 Buff & Shine</h3>
+
+        <p>
+          A clean, natural-looking finish.
+        </p>
+
+        <div class="price">
+          R120
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="about">
+
+    <div class="section-title">
+
+      <h2>About Nthati</h2>
+
+    </div>
+
+    <div class="about">
+
+      <p>
+        Nailed by Nthati is a local nail business
+        based in Windmill Park, Boksburg.
+      </p>
+
+      <br>
+
+      <p>
+        As a self-taught polygel nail technician,
+        Nthati is passionate about creating beautiful
+        nails and giving every client a personal experience.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <section id="booking">
+
+    <div class="booking">
+
+      <div class="section-title">
+
+        <h2>Book Your Appointment</h2>
+
+        <p>
+          Ready to get your nails done?
+        </p>
+
+      </div>
+
+      <p>📍 Windmill Park, Boksburg</p>
+
+      <p>📞 075 206 4993</p>
+
+      <p>🕐 08:00 until late</p>
+
+      <br>
+
+      <a
+        class="button primary"
+        href="https://wa.me/27752064993">
+        💬 WhatsApp Nthati
+      </a>
+
+      <a
+        class="button secondary"
+        style="color:#291d24;border-color:#291d24;"
+        href="tel:+27752064993">
+        📞 Call
+
+      </a>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<footer>
+
+  <p>
+    © 2026 Nailed by Nthati
+  </p>
+
+  <p>
+    Windmill Park • Boksburg • TinkTinkie
+  </p>
+
+</footer>
+
+</body>
+  </html>
